@@ -3,7 +3,7 @@ services:
  - docker
  
 before install:
- - docker build -t mylocalImage/docker-react -f Dockerfile.dev .
+ - docker build -t mylocalimage/docker-react -f Dockerfile.dev .
 
 scripts:
  - docker run mylocalImage/docker-react npm run test -- --coverage
