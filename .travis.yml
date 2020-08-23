@@ -6,5 +6,5 @@ before install:
  - docker build -t mylocalimage/docker-react -f Dockerfile.dev .
 
 scripts:
- - docker run mylocalImage/docker-react npm run test -- --coverage
+ - docker run mylocalimage/docker-react npm run test -- --coverage
  
